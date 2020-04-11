@@ -1,6 +1,7 @@
-%h1 Fix Pic!
-
-= render 'form'
-
-= link_to  "Cancel", pic_path
-= link_to "Edit", edit_pic_path
+#edit_page.col-md-8.offset-md-2
+  .row
+    .card{ style: "width:100%" }
+      .card-header
+        %h1 Fix Pic
+      .card-body
+        = render 'form'
